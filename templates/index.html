@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<form action = "/index2" method = "POST">
+    <br>
+    <h2>İsminiz</h2>
+    <input  name = "isim"  size = "20" minlength = "3" />
+    <br/>
+    <h2>Soyisminiz</h2>
+    <input name = "soyisim" size="20" minlength="3" />
+    <br/>
+    <br>
+    <input type = "submit" value="Devam" />
+            
+</form>
+
+
+
+{% endblock body %}
