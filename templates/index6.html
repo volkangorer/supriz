@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form action = "/index6" method = "POST">
+    <br>
+    <h2>Volkan Eceyi seviyor mu ?(Evet/Hayır/Bilmiyorum);</h2>
+    <input  name = "soru"  size = "20" minlength = "3" />
+    <br/>
+    <h5>(İpucu : cevap üçseçenekli )</h5>
+    <br>
+    <input type = "submit" value="Devam" />
+            
+</form>
+
+{% endblock body %}

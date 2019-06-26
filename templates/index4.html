@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form action = "/index4" method = "POST">
+    <br>
+    <h2>Buluştuğumuz kafenin ismi ;</h2>
+    <input  name = "kafe"  size = "20" minlength = "3" />
+    <br/>
+    <h5>(Örneğin : Kalamış)</h5>
+    <br>
+    <input type = "submit" value="Devam" />
+            
+</form>
+
+{% endblock body %}

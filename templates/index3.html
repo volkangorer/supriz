@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h3>Volkan Görer'in doğum günü tarihi;</h3>
+
+<form action = "/index3" method = "POST">
+    <br>
+    <h2>Tarih</h2>
+    <input  name = "tarih"  size = "20" minlength = "3" />
+    <br/>
+    <h5>(Örneğin : 20 Haziran)</h5>
+    <br>
+    <input type = "submit" value="Devam" />
+            
+</form>
+
+{% endblock body %}
