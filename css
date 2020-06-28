@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  position:responsive;
+  
+}
+
+#font{
+	color:white;
+}
+
+#icon{
+	color:#B1E8F1;
+}
+
+.navbar{
+	background-color:#182542;
+	height:50px;
+	
+	top:0px;
+	width:100%;
+	margin-left:0px;
+	
+	
+}
+
+.navbar .left{
+	margin-left:10px;
+	margin-top:8px;
+	float:left;
+}
+
+.navbar .right{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+	
+	height:40px;
+	
+}
+
+.navbar .right a{
+    float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 17px;  	
+}
+
+.sidebar{
+	background-color:#174D55;
+	height:1000px;
+	width:17%;
+	color:white;
+	float:left;
+}
+
+.sidebar .menu{
+	
+	
+	padding-left:12px;
+	padding-top:7px;
+	padding-bottom:7px;
+	border-bottom:1px solid black;
+}
+
+.sidebar .bottommenu{
+	text-align:center;
+	padding:5px;
+	
+	border-bottom:1px solid black;
+}
+
+.sidebar .footermenu{
+	
+	margin-top:158px;
+	padding-left:12px;
+	padding-top:7px;
+	padding-bottom:7px;
+	border:1px solid black;
+}
+
+.topside{
+	width:83%;
+	float:left;
+	height:130px;
+	background-color:#F8F9F9;
+}
+
+.topside .topmenuwiew{
+	margin-left:20px;
+	margin-top:5px;
+}
+
+.topside #icon{
+	padding:10px;
+}
+
+.topside .title{
+	margin-left:20px;
+	margin-top:5px;
+	font-size:20px;
+	padding:10px;
+	
+	
+}
+
+.topside .search{
+	float:right;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+.box{
+	background-color:#F8F9F9;
+	height:140px;
+	width:20%;
+	float:left;
+	padding:10px;
+	margin:10px;
+}
+
+.box .explain{
+	margin-top:7px;
+	
+}
+
+
+
+.box .sticker{
+	font-size:40px;
+	float:left;
+	
+	margin-top:10px;
+	
+}
+
+.box .icerik{
+	margin-left:10px;
+	width:75%;
+	float:left;
+	font-size:15px;
+	margin-top:10px;
+}
